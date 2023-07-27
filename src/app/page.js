@@ -8,7 +8,7 @@ export default function RegisFormPage() {
   const [lname, setLname] = useState("");
   const [plan, setPlan] = useState("");
   const [planError, setPlanError] = useState(false);
-  const [gender, setGender] = useState(null);
+  const [gender, setGender] = useState("");
   const [genderError, setGenderError] = useState(false);
   const [buyBottle, setBuyBottle] = useState(false);
   const [buyShoes, setBuyShoes] = useState(false);
